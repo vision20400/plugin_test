@@ -1,7 +1,7 @@
 <?php
 namespace JTaylor\PluginTest\XePlugin\PluginTest;
 
-use Amuz\XePlugin\Adapfit\Plugin\Resources;
+use JTaylor\PluginTest\XePlugin\PluginTest\Plugin\Resources;
 use Route;
 use JTaylor\PluginTest\XePlugin\Model\Point;
 use Schema;
