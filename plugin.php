@@ -23,6 +23,7 @@ class Plugin extends AbstractPlugin
     public function register() //cpt 문서 생성 -> resources.php의 setCpts(), setCategory();
     {
         Resources::setCpts();
+        Resources::setCategory();
     }
 
     public function boot()
